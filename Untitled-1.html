@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>State Portal</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f5f5;
+}
+
+header{
+background:#0d6efd;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#0047ab;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+.hero{
+padding:40px;
+text-align:center;
+background:white;
+}
+
+.hero h1{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero input{
+width:60%;
+padding:15px;
+font-size:18px;
+border:1px solid #ccc;
+border-radius:10px;
+}
+
+.hero button{
+padding:15px 25px;
+background:#0d6efd;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,.2);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h2{
+margin-bottom:15px;
+color:#0d6efd;
+}
+
+.card p{
+margin-bottom:20px;
+}
+
+.card button{
+padding:10px 20px;
+background:#0d6efd;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>STATE INFORMATION PORTAL</h1>
+
+<p>सरकारी सेवाएँ और राज्य की सम्पूर्ण जानकारी</p>
+
+</header>
+
+<nav>
+
+<a href="#">Home</a>
+
+<a href="#">Schemes</a>
+
+<a href="#">Certificates</a>
+
+<a href="#">Jobs</a>
+
+<a href="#">District</a>
+
+<a href="#">Tourism</a>
+
+<a href="#">Contact</a>
+
+</nav>
+
+<section class="hero">
+
+<h1>आप क्या खोज रहे हैं?</h1>
+
+<input type="text" placeholder="Search...">
+
+<button>Search</button>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h2>सरकारी योजनाएँ</h2>
+<p>सभी नई और पुरानी योजनाएँ</p>
+<button><a href="sarkari.html">Open</a></button>
+</div>
+
+<div class="card">
+<h2>आय प्रमाण पत्र</h2>
+<p>ऑनलाइन आवेदन की जानकारी</p>
+<button><a href="http://edistrict.up.gov.in/edistrictup/">Open</a></button>
+</div>
+
+<div class="card">
+<h2>जाति प्रमाण पत्र</h2>
+<p>कैसे बनवाएँ</p>
+<button><a href="http://edistrict.up.gov.in/edistrictup/">Open</a></button>
+</div>
+
+<div class="card">
+<h2>निवास प्रमाण पत्र</h2>
+<p>पूरी जानकारी</p>
+<button><a href="http://edistrict.up.gov.in/edistrictup/">Open</a></button>
+</div>
+
+<div class="card">
+<a><h2>सरकारी नौकरी</h2></a>
+
+<p>नई भर्ती और रिजल्ट</p>
+<button><a href="pages/pm-awas.html">Open</a></button>
+
+</div>
+
+
+<div class="card">
+<h2>जिले की जानकारी</h2>
+<p>हर जिले की पूरी जानकारी</p>
+<button><a href="open.html">Open</a></button>
+
+
+</div>
+
+<div class="card">
+<h2> बिजली बिल</h2>
+<p>ऑनलाइन आवेदन की जानकारी</p>
+<button><a href="https://uppcl.org/uppcl/hi/">Open</a></button>
+</div>
+
+<div class="card">
+<h2>मेरा आधार</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://uidai.gov.in/">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पैन कार्ड</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://onlineservices.proteantech.in/paam/endUserRegisterContact.html">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>राशन कार्ड</h2>
+<p>ऑनलाइन आवेदन की जानकारी</p>
+<button><a href="https://fcs.up.gov.in/">Open</a></button>
+</div>
+
+<div class="card">
+<h2>आय प्रमाण पत्र</h2>
+<p>ऑनलाइन आवेदन की जानकारी</p>
+<button><a href="pages/pm-awas.html">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>पासपोर्ट सेवा</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>तहसील के कार्य</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://upbhulekh.gov.in/#/home">Open</a></button>
+<button><a href="https://sarkaricsc.com/bhu-naksha-">Open</a></button>
+<button><a href="https://upbhulekh.gov.in/#/home">Open</a></button>
+</div>
+
+<div class="card">
+<h2>सब्सिडी और लोन</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>ड्राइविंग लाइसेंस </h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>सरकारी काम</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>Offline jobs</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>परिणाम(result)</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>प्राइवेट नौकरियां(private jobs)</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>सरकारी नौकरी(Govt. job)</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+
+<div class="card">
+<h2>प्रवेश पत्र(admit card)</h2>
+<p>ऑनलाइन डाउनलोड करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+<div class="card">
+<h2>उत्तर कुंजी(Answer key)</h2>
+<p>ऑनलाइन आवेदन करें</p>
+<button><a href="https://www.passportindia.gov.in/psp">Open</a></button>
+</div>
+
+</section>
+
+<footer>
+
+© 2026 State Portal | Made By Vipin
+
+</footer>
+
+</body>
+
+</html>
